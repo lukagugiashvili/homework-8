@@ -1,0 +1,99 @@
+@keyframes lefttoright {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 400px;
+    }
+    
+}
+body {
+    background-color: aquamarine;
+}
+
+.car-1 img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin-left:30px;
+    animation-name: lefttoright;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes righttoleft {
+    from {
+        right: 0px;   
+    }
+    to {
+       right: 400px;
+    }
+    
+}
+
+.car-2 img {
+    height: 200px;
+    width: 200px;
+    position: relative;
+    margin-left: 1050px; 
+    animation-name: righttoleft;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+.allcars {
+    position: relative;
+    display: flex;
+    background-color:gray;
+    top: 0px;
+    margin-top: ;
+
+}
+
+@keyframes sky {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 1000px;
+    }
+}
+
+.cloud img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: sky;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: inherit;
+    
+}
+.cloud {
+    background-color: blue;
+    height: 250px;
+}
+
+
+@keyframes zebracrossing {
+    from {
+        top:160px
+    }
+    to {
+        margin-top: 200px;
+    }
+    
+}
+
+.children img {
+    width: 100px;
+    height: 100px;
+    padding-left: 650px;
+    position: absolute;
+    animation-name: zebracrossing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.children {
+    background-color: blue;
+}
